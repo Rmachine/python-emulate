@@ -116,11 +116,12 @@ def save_url_content(url,folder_path=None):
 def get_url_count(url):
 	if not (url.startswith('http://') or url.startswith('https://') ):
 		return u'url地址不符合规格'
-	d = urllib.urlopen(url)
-	content = d.read()
+	d = urllib.request.urlopen(url)
+	content = str(d.read()) #read（）操作可以得到一个包含网页的二进制字符串
 	return len(content.split('<a href=')) - 1
 
-print get_url_count('http://hi.baidu.com/jxq61/item/149d29cc8d52513d4594168f')
+print(get_url_count('http://www.baidu.com')) #网页注意输入完整
+print(get_url_count('http://baidu.com'))
 
 """
 8.  定义一个方法 func，该func引入任意多的列表参数，返回所有列表中最大的那个元素。

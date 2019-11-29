@@ -22,8 +22,11 @@ Created on Wed Nov 27 10:28:15 2019
 注意：
 1.当定义一个class的内置方法method时，method的参数的第一个永远是self（代表对象本身）。
 2.函数中的参数一般不可被其他函数使用，除非将该参数定义为glob；但是在对象里面定义的各方法参数可相互使用，self.var1 = var1中的var1值就可共用。
-"""
 
+步骤：分化需求；找到共同性；找到最小节点
+@property 讲函数当装饰用，引用函数的时候不需要.d()仅.的即可
+@staticmenthod  静态方法的装饰
+"""
 # 例子
 class test(object):  # 我们所有的class都是object的派生类
 	# get被称之为test对象的方法
@@ -52,7 +55,7 @@ print(t.get())
 3 返回3门科目中最高的分数。get_course() 返回类型:int
 '''
 class student(object):
-    def  __init__(self,name,age,scores):
+    def  __init__(self,name,age,scores):  #__init__底下不能使用return，仅赋值 只能用print
         self.name = name
         self.age = age
         self.scores = scores    
@@ -187,9 +190,74 @@ print(a.get_intersection({1, 2, "a"}))
 print(a.get_union({2, 3, 4, "c", "d"}))
 print(a.del_difference({1, 2, 3, 4}))
 
+"""
+五： 写一个网页数据操作类。完成下面的功能：提示：需要用到urllib模块
+get_httpcode()获取网页的状态码，返回结果例如：200,301,404等 类型为int 
+get_htmlcontent() 获取网页的内容。返回类型:str
+get_linknum()计算网页的链接数目。
+urllib.request 请求模块;urllib.error 异常处理模块;urllib.parse url解析模块
+"""
+import urllib
+class page_data(object):
+    def __init__(self,webs):
+        self.webs = webs
+        self.webo = urllib.request.urlopen(webs)
+    def get_httpcode(self):
+        status = self.webo.code
+        return status
+    def get_htmlcontent(self):
+        contentstr = self.webo.read() #read（）操作可以得到一个包含网页的二进制字符串
+        return contentstr
+    def get_linknum(self):
+        content = str(self.webo.read())
+        return len(content.split('<a href=')) - 1
+# TypeError: a bytes-like object is required, not 'str'
 
+A = page_data("http://www.baidu.com")
+print(A.get_httpcode())  
+print(A.get_htmlcontent())
+print(A.get_linknum())
 
+"""
+六.对象中嵌套对象（继承）
+"""
+class SchoolMember():
+    '''Represents any school member.'''
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        print ('(Initialized SchoolMember: %s)' % self.name)
 
+    def tell(self):
+        '''Tell my details.'''
+        print ('Name:"%s" Age:"%s"' % (self.name, self.age))
+
+class Teacher(SchoolMember):
+    '''Represents a teacher.'''
+    def __init__(self, name, age, salary):
+        SchoolMember.__init__(self, name, age)
+        self.salary = salary
+        print ('(Initialized Teacher: %s)' % self.name)
+
+    def tell(self):
+        print ('Salary: "%d"' % self.salary)
+
+class Student(SchoolMember):
+    '''Represents a student.'''
+    def __init__(self, name, age, marks):
+        SchoolMember.__init__(self, name, age)
+        self.marks = marks
+        print ('(Initialized Student: %s)' % self.name)
+
+    def tell(self):
+        print ('Marks: "%d"' % self.marks)
+
+t = Teacher('Mrs. Shrividya', 40, 30000)
+s = Student('Swaroop', 22, 75)
+
+members = [t, s]
+for member in members:
+    member.tell()
 
 
 

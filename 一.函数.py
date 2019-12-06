@@ -44,6 +44,7 @@ import os  #丰富的方法用来处理文件和目录
 def get_text(f):
     if os.path.exists(f): #检验给出的路径是否真的存在
         with open(f, 'r') as g: #python文件读写,不必调用f.close()方法确保能正确地关闭文件
+            #代码友好，自动处理垃圾,with.
             return g.read()
     return "没有这个文件"
 print(get_text('C:\\Users\\姜\\Desktop\\python\\python进阶篇\\进阶篇03-函数第二节\\习题.txt'))

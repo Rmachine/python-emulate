@@ -258,7 +258,3 @@ s = Student('Swaroop', 22, 75)
 members = [t, s]
 for member in members:
     member.tell()
-
-
-
-

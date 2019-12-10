@@ -123,4 +123,3 @@ for files in os.listdir('C:\\Users\\姜\\Desktop\\python\\笔记'):
     b = os.path.splitext(files)[1]
     a.append(b)
 a = list(set(a))
-

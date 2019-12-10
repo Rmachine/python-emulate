@@ -383,6 +383,3 @@ b = []
 for x in a:
 	if x != 5:
 		b.append(x)
-
-
-

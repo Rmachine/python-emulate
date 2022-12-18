@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-18T09:57:38.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.3" etag="Re6p2zn4u5UKtpWbgZsG" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-18T10:28:25.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.7.3" etag="nxYPi5mq7gxhvKMsa9Au" type="github">
   <diagram id="jqJDy9NiqvVAVm9lFwue" name="第 1 页">
-    <mxGraphModel dx="1356" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="904" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,16 +29,16 @@
         <mxCell id="4lHbjTKECeK6eanyVoQs-14" value="&lt;font face=&quot;Microsoft YaHei&quot; color=&quot;#191919&quot;&gt;&lt;span style=&quot;font-size: 8.88889px;&quot;&gt;启动会&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontStyle=1" vertex="1" parent="4lHbjTKECeK6eanyVoQs-13">
           <mxGeometry x="20" y="25" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4lHbjTKECeK6eanyVoQs-15" value="&lt;font face=&quot;Microsoft YaHei&quot; color=&quot;#191919&quot;&gt;&lt;span style=&quot;font-size: 8.88889px;&quot;&gt;对焦会&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;fontStyle=1" vertex="1" parent="4lHbjTKECeK6eanyVoQs-13">
+        <mxCell id="4lHbjTKECeK6eanyVoQs-15" value="&lt;span style=&quot;color: rgb(25, 25, 25); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 8.88889px;&quot;&gt;日报&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3333FF;fontStyle=1" vertex="1" parent="4lHbjTKECeK6eanyVoQs-13">
           <mxGeometry x="20" y="75" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4lHbjTKECeK6eanyVoQs-16" value="&lt;font face=&quot;Microsoft YaHei&quot; color=&quot;#191919&quot;&gt;&lt;span style=&quot;font-size: 8.88889px;&quot;&gt;培训会&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontStyle=1" vertex="1" parent="4lHbjTKECeK6eanyVoQs-13">
+        <mxCell id="4lHbjTKECeK6eanyVoQs-16" value="&lt;span style=&quot;color: rgb(25, 25, 25); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 8.88889px;&quot;&gt;对焦会&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontStyle=1" vertex="1" parent="4lHbjTKECeK6eanyVoQs-13">
           <mxGeometry x="20" y="125" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4lHbjTKECeK6eanyVoQs-17" value="&lt;font face=&quot;Microsoft YaHei&quot; color=&quot;#191919&quot;&gt;&lt;span style=&quot;font-size: 8.88889px;&quot;&gt;预演会&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontStyle=1" vertex="1" parent="4lHbjTKECeK6eanyVoQs-13">
+        <mxCell id="4lHbjTKECeK6eanyVoQs-17" value="&lt;span style=&quot;color: rgb(25, 25, 25); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 8.88889px;&quot;&gt;培训会&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontStyle=1" vertex="1" parent="4lHbjTKECeK6eanyVoQs-13">
           <mxGeometry x="20" y="175" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4lHbjTKECeK6eanyVoQs-18" value="&lt;font face=&quot;Microsoft YaHei&quot; color=&quot;#191919&quot;&gt;&lt;span style=&quot;font-size: 8.88889px;&quot;&gt;日报&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontStyle=1" vertex="1" parent="4lHbjTKECeK6eanyVoQs-13">
+        <mxCell id="4lHbjTKECeK6eanyVoQs-18" value="&lt;span style=&quot;color: rgb(25, 25, 25); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 8.88889px;&quot;&gt;预演会&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontStyle=1" vertex="1" parent="4lHbjTKECeK6eanyVoQs-13">
           <mxGeometry x="20" y="225" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4lHbjTKECeK6eanyVoQs-22" value="&lt;font face=&quot;Microsoft YaHei&quot; color=&quot;#191919&quot;&gt;&lt;span style=&quot;font-size: 8.88889px;&quot;&gt;复盘会&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontStyle=1" vertex="1" parent="4lHbjTKECeK6eanyVoQs-13">
@@ -145,9 +145,6 @@
         </mxCell>
         <mxCell id="4lHbjTKECeK6eanyVoQs-107" value="&lt;span style=&quot;color: rgb(25, 25, 25); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 8.88889px;&quot;&gt;启动&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontStyle=1" vertex="1" parent="4lHbjTKECeK6eanyVoQs-98">
           <mxGeometry x="19.99999999999997" y="40" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="4lHbjTKECeK6eanyVoQs-113" value="&lt;font face=&quot;Microsoft YaHei&quot; color=&quot;#191919&quot;&gt;&lt;span style=&quot;font-size: 8.88889px;&quot;&gt;日报机制&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontStyle=1" vertex="1" parent="4lHbjTKECeK6eanyVoQs-98">
-          <mxGeometry x="20" y="230" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="4lHbjTKECeK6eanyVoQs-68" value="&lt;span style=&quot;color: rgb(25, 25, 25); font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 8.88889px;&quot;&gt;复盘&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;fontStyle=1" vertex="1" parent="4lHbjTKECeK6eanyVoQs-73">
           <mxGeometry x="290" y="60" width="80" height="20" as="geometry" />

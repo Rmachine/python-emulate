@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-18T13:22:13.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="pcytRyIZbUki0MZwtnXq" version="20.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-18T13:35:48.485Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="WVoAKm-1q5UsU7fBkEyk" version="20.7.3" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1148" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1311" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,95 +138,25 @@
         <mxCell id="OTApJZgQJJiU-7IRqIAa-45" value="&lt;font face=&quot;Microsoft YaHei&quot; color=&quot;#191919&quot;&gt;&lt;span style=&quot;font-size: 8.88889px;&quot;&gt;风险复盘&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="OTApJZgQJJiU-7IRqIAa-46" vertex="1">
           <mxGeometry x="15" y="190" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-56" value="&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 7pt; color: rgb(25, 25, 25); background-color: transparent;&quot;&gt;整改与验收&lt;/span&gt;" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;fillColor=#FFFF99;strokeColor=#d6b656;gradientColor=#ffd966;" parent="1" vertex="1">
-          <mxGeometry x="980" y="40" width="500" height="360" as="geometry">
+        <mxCell id="OTApJZgQJJiU-7IRqIAa-56" value="&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 7pt; color: rgb(25, 25, 25); background-color: transparent;&quot;&gt;检查后&lt;/span&gt;" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;fillColor=#FFFF99;strokeColor=#d6b656;gradientColor=#ffd966;" parent="1" vertex="1">
+          <mxGeometry x="980" y="40" width="250" height="360" as="geometry">
             <mxRectangle x="40" y="80" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-57" value="&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 6.66667pt; color: rgb(25, 25, 25); background-color: transparent;&quot;&gt;整改&lt;/span&gt;" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;fillColor=#FFFFCC;" parent="OTApJZgQJJiU-7IRqIAa-56" vertex="1">
-          <mxGeometry y="20" width="250" height="340" as="geometry">
+        <mxCell id="OTApJZgQJJiU-7IRqIAa-57" value="&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 6.66667pt; color: rgb(25, 25, 25); background-color: transparent;&quot;&gt;整改与验收&lt;/span&gt;" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;fillColor=#FFFFCC;" parent="OTApJZgQJJiU-7IRqIAa-56" vertex="1">
+          <mxGeometry y="20" width="120" height="340" as="geometry">
             <mxRectangle x="40" y="80" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="OTApJZgQJJiU-7IRqIAa-57" source="OTApJZgQJJiU-7IRqIAa-59" target="OTApJZgQJJiU-7IRqIAa-100" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="iH_fENymZqT4NKZlddTt-48" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;整改项确认&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OTApJZgQJJiU-7IRqIAa-57">
+          <mxGeometry x="15" y="130" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-109" value="确认不符合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OTApJZgQJJiU-7IRqIAa-101" vertex="1" connectable="0">
-          <mxGeometry x="-0.0487" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-59" value="&lt;span style=&quot;font-family:&#39;Microsoft YaHei&#39;; font-size:6.66667pt; color:#191919;&quot;&gt;与GA协商确认&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="OTApJZgQJJiU-7IRqIAa-57" vertex="1">
-          <mxGeometry x="80" y="116" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="OTApJZgQJJiU-7IRqIAa-57" source="OTApJZgQJJiU-7IRqIAa-60" target="OTApJZgQJJiU-7IRqIAa-59" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-60" value="&lt;span style=&quot;font-family:&#39;Microsoft YaHei&#39;; font-size:6.66667pt; color:#191919;&quot;&gt;核查结果&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="OTApJZgQJJiU-7IRqIAa-57" vertex="1">
-          <mxGeometry x="80" y="36" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-80" value="检查不符合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OTApJZgQJJiU-7IRqIAa-57" vertex="1" connectable="0">
-          <mxGeometry x="140.00000000000023" y="110" as="geometry">
-            <mxPoint x="-21" y="-4" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="OTApJZgQJJiU-7IRqIAa-57" source="OTApJZgQJJiU-7IRqIAa-100" target="OTApJZgQJJiU-7IRqIAa-119" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-100" value="&lt;font face=&quot;Microsoft YaHei&quot; color=&quot;#191919&quot;&gt;&lt;span style=&quot;font-size: 8.88889px;&quot;&gt;整改&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="OTApJZgQJJiU-7IRqIAa-57" vertex="1">
-          <mxGeometry x="80" y="196" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.029;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;" parent="OTApJZgQJJiU-7IRqIAa-57" source="OTApJZgQJJiU-7IRqIAa-119" target="OTApJZgQJJiU-7IRqIAa-100" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="125" y="330" />
-              <mxPoint x="40" y="330" />
-              <mxPoint x="40" y="228" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-122" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;验收不通过&lt;br&gt;上升聚焦节奏&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OTApJZgQJJiU-7IRqIAa-121" vertex="1" connectable="0">
-          <mxGeometry x="0.1158" y="3" relative="1" as="geometry">
-            <mxPoint x="3" y="-30" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-119" value="&lt;font face=&quot;Microsoft YaHei&quot; color=&quot;#191919&quot;&gt;&lt;span style=&quot;font-size: 8.88889px;&quot;&gt;确认方案、责任人、验收标准&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="OTApJZgQJJiU-7IRqIAa-57" vertex="1">
-          <mxGeometry x="80" y="266" width="90" height="50" as="geometry" />
+        <mxCell id="iH_fENymZqT4NKZlddTt-49" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;整改落地&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OTApJZgQJJiU-7IRqIAa-57">
+          <mxGeometry x="15" y="190" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OTApJZgQJJiU-7IRqIAa-72" value="&lt;span style=&quot;font-family: &amp;quot;Microsoft YaHei&amp;quot;; font-size: 6.66667pt; color: rgb(25, 25, 25); background-color: transparent;&quot;&gt;验收存档案&lt;br&gt;&lt;/span&gt;" style="swimlane;html=1;startSize=20;horizontal=1;containerType=tree;glass=0;fillColor=#FFFFCC;" parent="OTApJZgQJJiU-7IRqIAa-56" vertex="1">
-          <mxGeometry x="250" y="20" width="250" height="340" as="geometry">
+          <mxGeometry x="120" y="20" width="130" height="340" as="geometry">
             <mxRectangle x="40" y="80" width="90" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-74" value="&lt;font face=&quot;Microsoft YaHei&quot; color=&quot;#191919&quot;&gt;&lt;span style=&quot;font-size: 8.88889px;&quot;&gt;验收通过并存档&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="OTApJZgQJJiU-7IRqIAa-72" vertex="1">
-          <mxGeometry x="90" y="116" width="90" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="OTApJZgQJJiU-7IRqIAa-56" source="OTApJZgQJJiU-7IRqIAa-60" target="OTApJZgQJJiU-7IRqIAa-74" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="385" y="85" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-76" value="检查符合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OTApJZgQJJiU-7IRqIAa-75" vertex="1" connectable="0">
-          <mxGeometry x="-0.1467" y="-2" relative="1" as="geometry">
-            <mxPoint y="-17" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="OTApJZgQJJiU-7IRqIAa-56" source="OTApJZgQJJiU-7IRqIAa-59" target="OTApJZgQJJiU-7IRqIAa-74" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-82" value="补齐材料，纠正结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OTApJZgQJJiU-7IRqIAa-81" vertex="1" connectable="0">
-          <mxGeometry x="-0.1083" relative="1" as="geometry">
-            <mxPoint x="9" y="-15" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="OTApJZgQJJiU-7IRqIAa-56" source="OTApJZgQJJiU-7IRqIAa-119" target="OTApJZgQJJiU-7IRqIAa-74" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="OTApJZgQJJiU-7IRqIAa-111" value="整改验收通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OTApJZgQJJiU-7IRqIAa-110" vertex="1" connectable="0">
-          <mxGeometry x="-0.4204" y="-5" relative="1" as="geometry">
-            <mxPoint x="1" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
